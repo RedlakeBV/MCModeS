@@ -16,6 +16,7 @@ import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
@@ -30,6 +31,8 @@ public class MainActivity extends Activity {
 		Button button2 = (Button) findViewById(R.id.main_switch_last_button);
 		button2.setTypeface(Typefaces.KEEP_CALM_MEDIUM);
 		
+		TextView tmpTV = (TextView) findViewById(R.id.main_title);
+		tmpTV.setTypeface(Typefaces.KEEP_CALM_MEDIUM);
 	}
 
 	public void selectMapButtonClicked(View view) {
